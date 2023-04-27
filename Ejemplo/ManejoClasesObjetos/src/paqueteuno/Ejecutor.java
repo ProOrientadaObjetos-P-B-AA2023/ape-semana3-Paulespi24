@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package paqueteuno;
 
-/**
- *
- * @author reroes
- */
 public class Ejecutor {
     public static void main(String[] args) {
         // Crear un objeto de tipo FacturaTelefono
@@ -22,6 +13,7 @@ public class Ejecutor {
         ft.establecerNumeroTelefono(numeroTelefono);
         ft.establecerMinutosMes(minutos);
         ft.establecerValorMinuto(valorMinuto);
+        ft.establecerValorFactura(minutos * valorMinuto);
         // hasta aquí el objeto ya tiene valores para sus atributos:
         // número de telefono, número de minutos consumidos en el mes, 
         // valor de cada minuto.
@@ -30,7 +22,7 @@ public class Ejecutor {
         // consumidos en el mes, valor de cada minuto; que ya los tiene el 
         // objeto.
         
-        ft.calcularValorFactura();
+        //ft.calcularValorFactura();
         
         // Se hace uso de los métodos obtener para presentar en pantalla lo 
         // requerido
