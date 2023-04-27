@@ -43,7 +43,7 @@ class terreno{
      public double getValorMetroCuadrado(){
         return this.valorMetroCuadrado;
     }
-     
+   
     @Override
      public String toString(){
          String msj = String.format("DATOS DE TERRENO "
@@ -58,8 +58,6 @@ class terreno{
          return msj;
      }
 }
-
-
 public class Problema1 {
 
     public static void main(String[] args) {
